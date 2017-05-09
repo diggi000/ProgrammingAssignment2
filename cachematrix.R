@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 #This function will see if inverse of the matrix is already stored in cache otherwise it'll
-# and store
+# and store.
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinv()
